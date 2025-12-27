@@ -17,6 +17,18 @@ int main()
 
         printf("\n");
     }
+     printf("\n***Reverse Piramit***\n\n");
+
+     for(i=1;i<=number;i++){
+        for(j=1;j<=i;j++){
+            printf(" ");
+        }
+        for(j=number;j>=i;j--){
+            printf("* ");
+        }
+        printf("\n");
+    }
+
     printf("\n***piramit 2***\n");
 
      for(i=1;i<=number;i+=2){
@@ -30,6 +42,7 @@ int main()
 
         printf("\n");
     }
+
 
 
     return 0;
