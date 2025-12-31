@@ -63,6 +63,9 @@ int main()
 
     printf("%c\n",toupper('a'));
     printf("%d\n",toupper('a'));
+    printf("%c\n",tolower('A'));
+    printf("%d\n",tolower('A'));
+
 
 
     return 0;
