@@ -7,9 +7,9 @@ void upperChar(char*,char*);
 int main()
 {   char name[40] ,surname[20];
     printf("Input your name : ");
-    scanf("%s",&name);
+    scanf("%s",name);
     printf("Input your surname : ");
-    scanf("%s",&surname);
+    scanf("%s",surname);
 
    upperChar(name,surname);
 
